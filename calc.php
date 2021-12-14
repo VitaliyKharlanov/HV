@@ -44,8 +44,8 @@
         var z = xhr.responseText;        
 
          document.getElementById("z").value = z;
-         document.getElementById("btn1").className = "pressed"
-         document.getElementById("btn2").className = ""
+         document.getElementById("btn1").className = "pressed";
+         document.getElementById("btn2").className = "";
 
     }
     function minus() {
@@ -55,18 +55,20 @@
         
 
          document.getElementById("z").value = z;
-         document.getElementById("btn2").className = "pressed"
-         document.getElementById("btn1").className = ""
+         document.getElementById("btn2").className = "pressed";
+         document.getElementById("btn1").className = "";
 
     }
 </script>
     </head>
     <body>
+    <a href="index_.html">Индекс</a>
         <h1>Калькулятор</h1>
         <input id="x" /> <br />
         <input id="y" /> <br />
-        <button id="btn1" onclick="plus()">+</button>
+        <button id="btn1" onclick="plus();">+</button>
         <button id="btn2" onclick="minus();">-</button> <br />
         <input id="z" />
+    
     </body>
 </html>
