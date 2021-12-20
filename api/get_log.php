@@ -10,7 +10,7 @@
     $user = $_SESSION["user"];
 
     //echo getenv('MYAPP_CONFIG');
-    include(getenv('MYAPP_CONFIG'));
+    include('/var/www/html/params.php')
             
             //Оставим уязвимость SQL-Injection для спортивных упражнений
             $sql = "SELECT ID, Number1, Number2, Result, UserID
